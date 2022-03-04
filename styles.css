@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.spacenav {
+  display: flex;
+  justify-content: end;
+  margin: 5%;
+  /* position: fixed; */
+}
+.mobile-button {
+}
+.burger-menu {
+  width: 2rem;
+}
+
+body {
+  font-family: roboto;
+  /* height: 100%; */
+  background-color: #f6f2d4;
+  margin: 5%;
+}
+.hero-image {
+  background: url(/img/zengqiangHe.png);
+  height: 53vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* text-align: center; */
+  margin-top: 20%;
+}
+hr {
+  width: 50%;
+  border-top: 0.1rem solid #c0beba;
+}
+h1 {
+  color: #333;
+  font-size: 3.3rem;
+  margin: 5%;
+  /* line-height: 4rem; */
+}
+h2 {
+  font-size: 2rem;
+  margin: 5%;
+}
+p {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  margin: 5%;
+}
+.welcome-page {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+.cards-container {
+}
+.social-cards-items {
+  background-color: #f6d155;
+  width: 80%;
+  height: 100%;
+  border-radius: 0.6rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-cards-items2 {
+  background-color: #368b85;
+  width: 80%;
+  height: 100%;
+  border-radius: 0.6rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-cards-items3 {
+  background-color: #ff4848;
+  width: 80%;
+  height: 100%;
+  border-radius: 0.6rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards-logo {
+  width: 10%;
+}
+
+.name1 {
+  font-size: 0.8rem;
+}
+/* .container-skills-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.skills-item {
+  background-color: #f6d155;
+  width: 100%;
+  height: 80%;
+  border-radius: 0.8rem;
+  padding: 0.6rem;
+  margin: 0.1rem;
+  color: azure;
+} */
+
+/* Skillbar */
+
+.container {
+  width: 100%;
+  background-color: #f5e8c7;
+  border-radius: 0.6rem;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #333;
+  font-weight: 400;
+}
+
+.html {
+  width: 60%;
+  background-color: #368b85;
+  border-radius: 0.6rem;
+  margin-bottom: 0.7rem;
+}
+.css {
+  width: 50%;
+  background-color: #f6d155;
+  border-radius: 0.6rem;
+  margin-bottom: 0.7rem;
+}
+.js {
+  width: 20%;
+  background-color: #ff4848;
+  border-radius: 0.6rem;
+}
+.container-hobbies {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.hobbies-item {
+  background-color: #f9f9f9;
+  width: 17%;
+  height: 20%;
+  border-radius: 0.7rem;
+  padding: 0.6rem;
+  /* margin-top: 0;
+  margin-bottom: 0; */
+  opacity: 0.8;
+}
+.hiking-pic {
+  width: 100%;
+  border-radius: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+.jogging-pic {
+  width: 100%;
+  border-radius: 0.6rem;
+}
+.kayaking-pic {
+  width: 100%;
+  border-radius: 0.6rem;
+}
+.contact-me > .btn {
+  background-color: #f6d155;
+  width: 30%;
+  height: 20%;
+  border-radius: 0.6rem;
+  padding: 0.6rem;
+  margin: 0.1rem;
+  padding: 1rem;
+  margin: 5.5rem;
+}
+.contact-message {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 3rem;
+  
+}
+a {
+  color: #2c3531;
+  text-decoration: none;
+  font-weight: 200;
+}
+a:link {
+  color: black;
+  font-weight: 400;
+}
+a:visited {
+  color: #2c3531;
+}
+a:active {
+  color: plum;
+}
+.bottom-container {
+  margin-bottom: 3rem;
+}
