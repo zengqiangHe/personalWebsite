@@ -7,22 +7,23 @@
   box-sizing: inherit;
 }
 .spacenav {
-  display: flex;
-  justify-content: end;
-  margin: 5%;
-  /* position: fixed; */
+ 
 }
 .mobile-button {
+  display: flex;
+  justify-content: flex-end;
 }
 .burger-menu {
-  width: 2rem;
+  width: 10%;
+
 }
 
 body {
   font-family: roboto;
   /* height: 100%; */
   background-color: #f6f2d4;
-  margin: 5%;
+  margin:5%
+  
 }
 .hero-image {
   background: url(/img/zengqiangHe.png);
@@ -152,7 +153,7 @@ p {
 }
 .js {
   width: 20%;
-  background-color: #ff4848;
+  background-color: #F07060;
   border-radius: 0.6rem;
 }
 .container-hobbies {
@@ -186,7 +187,7 @@ p {
   border-radius: 0.6rem;
 }
 .contact-me > .btn {
-  background-color: #f6d155;
+  background-color: #fc0;
   width: 30%;
   height: 20%;
   border-radius: 0.6rem;
@@ -219,3 +220,17 @@ a:active {
 .bottom-container {
   margin-bottom: 3rem;
 }
+/* .footer p{
+  background-color: #222;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 2rem;
+  margin-left:0;
+  color: #f6f2d4;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+} */
+
