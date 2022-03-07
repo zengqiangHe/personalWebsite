@@ -3,11 +3,11 @@
   /* margin:0;
   padding: 0; */
 }
-*,
+/* *,
 *:before,
 *:after {
   box-sizing: inherit;
-}
+} */
 .spacenav {
 }
 .mobile-button {
@@ -26,10 +26,10 @@ body {
   font-family: roboto;
   /* height: 100%; */
   background-color: #f6f2d4;
-  margin: 5%;
+  margin:0;
 }
 .hero-image {
-  background: url(/img/zengqiangHe.png);
+  /* background: url(/img/zengqiangHe.png); */
   height: 53vh;
   background-position: center;
   background-size: cover;
@@ -38,6 +38,19 @@ body {
   /* align-items: center; */
   /* text-align: center; */
   margin-top: 20%;
+
+  @media(min-width:43rem){
+    height:100vh;
+  }
+}
+.photo-of-zach{
+  width: 100%;
+}
+.photo-of-zach-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 h1 {
   color: #333;
@@ -63,12 +76,14 @@ p {
   /* display: flex;
   flex-direction: column;
   align-items: center; */
+  margin: 5%;
 }
 .cards-container {
+  margin: 5%;
 }
 .social-cards-items {
   background-color: #f6d155;
-  width: 80%;
+  width: 100%;
   height: 100%;
   border-radius: 0.6rem;
   padding: 2rem;
@@ -77,10 +92,11 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow:5px 5px 5px #D3DEDC;
 }
 .social-cards-items2 {
   background-color: #368b85;
-  width: 80%;
+  width: 100%;
   height: 100%;
   border-radius: 0.6rem;
   padding: 2rem;
@@ -89,10 +105,11 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow:5px 5px 5px #D3DEDC;
 }
 .social-cards-items3 {
   background-color: #ff4848;
-  width: 80%;
+  width: 100%;
   height: 100%;
   border-radius: 0.6rem;
   padding: 2rem;
@@ -101,6 +118,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow:5px 5px 5px #D3DEDC;
 }
 .cards-logo {
   width: 10%;
@@ -127,11 +145,14 @@ p {
 } */
 
 /* Skillbar */
-
-.container {
+.skill-bar-main-container{
+  margin: 5%;
+}
+.skills-container {
   width: 100%;
   background-color: #f5e8c7;
   border-radius: 0.6rem;
+  box-shadow:5px 5px 5px #D3DEDC;
 }
 
 .skills {
@@ -168,36 +189,41 @@ p {
   /* overflow: auto;
   display: flex;
   scroll-snap-type: x mandatory; */
+  margin: 5%;
 }
 .hobbies-item {
-  background-color: #222;
-  width: 15%;
+  background-color: whitesmoke;
+  width: 18%;
   height: 5%;
   border-radius: 0.4rem;
   padding: 0.2rem;
-  opacity: 0.7;
+  /* opacity: 0.7; */
   position: relative;
   bottom: 2rem;
   right: 1rem;
   font-size: 0.8rem;
-  font-weight: 500;
-  color: #f5e8c7;
+  font-weight: 600;
+  color: #333;
   /* min-width: 50%;
   scroll-snap-align: start; */
+  box-shadow:2px 2px 2px #333;
 }
 .hiking-pic {
   width: 100%;
   border-radius: 0.6rem;
+  box-shadow:2px 2px 2px #333;
 }
 .jogging-pic {
   width: 100%;
   border-radius: 0.6rem;
+  box-shadow:2px 2px 2px #333;
 }
 .kayaking-pic {
   width: 100%;
   border-radius: 0.6rem;
+  box-shadow:2px 2px 2px #333;
 }
-.contact-me > .btn {
+/* .contact-me > .btn {
   background-color: #fc0;
   width: 30%;
   height: 20%;
@@ -206,11 +232,23 @@ p {
   margin: 0.1rem;
   padding: 1rem;
   margin: 5.5rem;
+} */
+.contact-me{
+  text-align: center;
+}
+.button_contact-me{
+  background-color: #fc0;
+  width: 30%;
+  height: 20%;
+  border-radius: 0.6rem;
+  padding: 0.6rem;
+  text-align: center;
+  border: none;
 }
 .contact-message {
   font-size: 1rem;
   color: #333;
-  margin-bottom: 3rem;
+  margin:3rem;
 }
 a {
   color: #2c3531;
@@ -230,13 +268,19 @@ a:active {
 .bottom-container {
   margin-bottom: 3rem;
 }
-/* .footer p{
+.footer {
   background-color: #222;
   width: 100%;
   padding: 2rem;
-  color: #f6f2d4;
+  
   font-size: 0.8rem;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  margin-bottom: 0;
-} */
+  margin-bottom: 0; */
+
+}
+
+.footer > p{
+  color: #f6f2d4;
+  text-align: center;
+}
