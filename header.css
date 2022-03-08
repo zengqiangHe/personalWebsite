@@ -1,0 +1,13 @@
+.spacenav {
+}
+.mobile-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.burger-menu {
+  width: 10%;
+  position: fixed;
+  left: 80%;
+  top: 5%;
+  z-index: 5;
+}
