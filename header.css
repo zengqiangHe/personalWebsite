@@ -1,5 +1,3 @@
-.spacenav {
-}
 .mobile-button {
   display: flex;
   justify-content: flex-end;
@@ -10,4 +8,24 @@
   left: 80%;
   top: 5%;
   z-index: 5;
+}
+.hero-image {
+  height: 53vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+
+  @media (min-width: 43rem) {
+    height: 100vh;
+  }
+}
+.photo-of-zach {
+  width: 100%;
+}
+.photo-of-zach-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

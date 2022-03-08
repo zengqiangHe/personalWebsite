@@ -1,0 +1,35 @@
+.skill-bar-main-container {
+    margin: 5%;
+  }
+  .skills-container {
+    width: 100%;
+    background-color: #f5e8c7;
+    border-radius: 0.6rem;
+    box-shadow: 5px 5px 5px #d3dedc;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #333;
+    font-weight: 400;
+  }
+  
+  .html {
+    width: 60%;
+    background-color: #368b85;
+    border-radius: 0.6rem;
+    margin-bottom: 0.7rem;
+  }
+  .css {
+    width: 50%;
+    background-color: #f6d155;
+    border-radius: 0.6rem;
+    margin-bottom: 0.7rem;
+  }
+  .js {
+    width: 20%;
+    background-color: #f07060;
+    border-radius: 0.6rem;
+  }

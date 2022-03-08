@@ -1,0 +1,52 @@
+
+
+h1 {
+  color: #333;
+  font-size: 3.3rem;
+  margin: 5%;
+  padding-top: 10%;
+  font-family: "Playfair Display", serif;
+}
+h2 {
+  font-size: 2rem;
+  margin: 5%;
+  font-family: "Playfair Display", serif;
+}
+h3{
+font-size: 1.2rem;
+}
+p {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  margin: 5%;
+  font-family: "Playfair Display", serif;
+}
+/* :root {
+    --div-color: #333;
+
+    --base-font-size-m: 14px;
+    --base-font-size: 18px;
+  
+    --h1-font-size:96px;    
+    --h1-font-size-m:3.3rem;   
+    --h1-font-weight: 900;
+    --h1-color-light:white;
+    --h1-color-dark:black;
+    --h1-line-height: 1.1;
+  
+    --h2-font-size: 2.6rem;  
+    --h2-font-size-m: 2.5rem;   
+    --h2-font-weight: 900;
+    --h2-color-light: white;
+    --h2-color-dark: black;
+    --h2-line-height: 1.1;
+  
+    --h3-font-size: 2.3rem;   
+    --h3-font-size-m: 2.8rem;   
+    --h3-font-weight: 900;
+    --h3-color-light: white;
+    --h3-color-dark: black;
+    --h3-line-height: 1.1;
+  
+  } */

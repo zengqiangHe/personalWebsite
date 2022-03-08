@@ -1,0 +1,26 @@
+.contact-me {
+    text-align: center;
+  }
+  .button_contact-me {
+    background-color: #fc0;
+    width: 30%;
+    height: 20%;
+    border-radius: 0.6rem;
+    padding: 0.6rem;
+    text-align: center;
+    border: none;
+  }
+  .contact-message {
+    font-size: 1rem;
+    color: #333;
+    margin: 3rem;
+  }
+  a {
+    color: #2c3531;
+    text-decoration: none;
+    font-weight: 200;
+  }
+  .bottom-container {
+    margin-bottom: 3rem;
+  }
+  
